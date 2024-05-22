@@ -1,0 +1,31 @@
+{
+  "name": "ejs-with-typescript",
+  "version": "1.0.0",
+  "description": "EJS template with typescript",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn src/server.ts",
+    "build": "tsc --build"
+  },
+  "keywords": [
+    "ejs",
+    "ejs-layout",
+    "typescript",
+    "express"
+  ],
+  "author": "Maximo Ignacio",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/express-ejs-layouts": "^2.5.4",
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  }
+}
